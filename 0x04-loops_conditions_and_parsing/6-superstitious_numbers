@@ -8,11 +8,11 @@ do
 
 	case $i in 
 		4 )
-			echo $"Bad luck in China";;
+			echo $"Bad luck from China";;
 		9 )
-			echo $"Bad luck in Japan";;
+			echo $"Bad luck from Japan";;
 		17 )
-			echo $"Bad luck in Italy";;
+			echo $"Bad luck from Italy";;
 
 	esac
 	(( i++ ))
