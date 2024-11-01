@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Script displays the content of the current directory in list format
+
+if [ -d "$PWD" ] && [ -n "$PWD" ]
+then
+	for i in  "$PWD"/*
+	do
+		filename=$(basename "$i")
+		remove=${filename#*-}
+		echo "$remove"
+	done
+fi
