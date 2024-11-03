@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script displays 'to infinty and beyond' with sleep in between each iteration
+
+trap 'echo "I am invincible!!!"' SIGTERM
+while (( 1 < 10 ))
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
